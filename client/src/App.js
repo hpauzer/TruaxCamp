@@ -1,15 +1,28 @@
 import React, { Component } from 'react';
 import './style/App.css';
+import Header from './components/Header.js';
 import Navbar from './components/Navbar.js';
 import Panel from './components/Panel.js';
 import Footer from './components/Footer.js';
+import Paypal from './components/Paypal.js';
 
 class App extends Component {
   render() {
- return  ();
+ return  (
+    <div>
+      <Header/>
+      <Navbar/>
+      <Panel/>
+      <Panel/>
+      <Panel/>
+  </div>
+
+ );
+
+export default App;
 
 
-       <div id="index-banner" class="parallax-container">
+       `<div id="index-banner" class="parallax-container">
           <div class="section no-pad-bot">
             <div class="container">
               <br>
@@ -29,45 +42,7 @@ class App extends Component {
                       alt="Unsplashed background img 1"></div>
                   </div>
 
-                  <div class="container">
-                    <div class="section">
 
-                      <!--   Icon Section   -->
-                      <div class="row">
-                        <div class="col s12 m4">
-                          <div class="icon-block">
-                            <h2 class="center amber-text">
-                              <i class="material-icons">album</i>
-                            </h2>
-                            <h5 class="center amber-text">Our</br>Mission</h5>
-
-                          <p class="grey-text light">Creating a lifelong desire to learn, listen and perform music.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div class="col s12 m4">
-                        <div class="icon-block">
-                          <h2 class="center amber-text">
-                            <i class="material-icons">audiotrack</i>
-                          </h2>
-                          <h5 class="center amber-text">Truax Troubadours</h5>
-
-                          <p class="grey-text light">Join this select group of performers. Auditions coming soon!</p>
-                        </div>
-                      </div>
-
-                      <div class="col s12 m4">
-                        <div class="icon-block">
-                          <h2 class="center amber-text">
-                            <i class="material-icons">insert_invitation</i>
-                          </h2>
-                          <h5 class="center amber-text">Save</br>the Date</h5>
-
-                        <p class="grey-text light">2018 summer camp will be held from June 18th - 23rd in Dallas, Texas.</p>
-                      </div>
-                    </div>
-                  </div>
 
                 </div>
               </div>
