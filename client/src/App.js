@@ -4,7 +4,7 @@ import Header from './components/Header.js';
 import Navbar from './components/Navbar.js';
 import Panel from './components/Panel.js';
 import Footer from './components/Footer.js';
-import Paypal from './components/Paypal.js';
+// import Paypal from './components/Paypal.js';
 
 class App extends Component {
   render() {
@@ -13,13 +13,11 @@ class App extends Component {
       <Header/>
       <Navbar/>
       <Panel/>
-      <Panel/>
-      <Panel/>
+      {/* <Paypal/> */}
+      <Footer/>
   </div>
 
  );
-
-export default App;
 
 
        `<div id="index-banner" class="parallax-container">

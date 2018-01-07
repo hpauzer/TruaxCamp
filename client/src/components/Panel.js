@@ -1,7 +1,7 @@
 import React from "react";
 
 const Panel = () => (
-    <div class= "container"> 
+    `<div class= "container"> 
         <div class="section">
             <div class="row">
                 <div class="col s12 m4">
@@ -34,7 +34,7 @@ const Panel = () => (
                     <p class="grey-text light">2018 summer camp will be held from June 18th - 23rd in Dallas, Texas.</p>
             </div>
         </div>
-    </div>
+    </div>`
 );
 
 export default Panel;
