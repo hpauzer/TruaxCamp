@@ -1,7 +1,8 @@
 import React from "react";
 
-const Panel = () => (
-    `<div class= "container"> 
+
+const PanelIcons = () => (
+    <div class= "container"> 
         <div class="section">
             <div class="row">
                 <div class="col s12 m4">
@@ -15,26 +16,29 @@ const Panel = () => (
                     </div>
                 </div>
 
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center amber-text">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center amber-text">
                             <i class="material-icons">audiotrack</i>
-                    </h2>
+                    
+                        </h2>
                         <h5 class="center amber-text">Truax Troubadours</h5>
                             <p class="grey-text light">Join this select group of performers. Auditions coming soon!</p>
+                    </div>
                 </div>
-            </div>
 
-        <div class="col s12 m4">
-            <div class="icon-block">
-                <h2 class="center amber-text">
-                    <i class="material-icons">insert_invitation</i>
-                </h2>
-                <h5 class="center amber-text">Save the Date</h5>
-                    <p class="grey-text light">2018 summer camp will be held from June 18th - 23rd in Dallas, Texas.</p>
-            </div>
-        </div>
-    </div>`
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center amber-text">
+                            <i class="material-icons">insert_invitation</i>
+                        </h2>
+                        <h5 class="center amber-text">Save the Date</h5>
+                        <p class="grey-text light">2018 summer camp will be held from June 18th - 23rd in Dallas, Texas.</p>
+                    </div>
+                </div>
+         </div>
+    </div>
+</div>
 );
 
-export default Panel;
+export default PanelIcons;
