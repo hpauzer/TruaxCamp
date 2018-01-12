@@ -1,26 +1,21 @@
 import React from "react";
 
-
-
 const Navbar = () => (
-<nav class = "white" role = "navigation"> 
-    <div class="nav-wrapper container">
-    <ul class="right hide-on-med-and-down">
-        <li>
-         Menu
-        </li>
-    </ul>
-
-    <ul id="nav-mobile" class="side-nav">
-        <li>
-            <a href="#">Navbar Link</a>
-        </li>
-    </ul>
-    <a href="#" data-activates="nav-mobile" class="button-collapse">
-        <i class="material-icons">menu</i>
-    </a>
-</div> 
-</nav>
+	<nav className="white">
+		<div className="nav-wrapper container">
+			<ul className="right hide-on-med-and-down">
+				<li>Menu</li>
+			</ul>
+			<ul id="nav-mobile" className="side-nav">
+				<li>
+					<button>Navbar Link</button>
+				</li>
+			</ul>
+			<button data-activates="nav-mobile" className="button-collapse">
+				<i className="material-icons">menu</i>
+			</button>
+		</div>
+	</nav>
 );
 
 export default Navbar;
